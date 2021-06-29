@@ -1,0 +1,29 @@
+{
+	"intents":[
+		{
+			"tag":"Greetings",
+			"patterns":["Hello","hi","Hello Ashwin","Hiii"],
+			"responses":["Hi, How are you!","Hello, How can I help you!"]
+		},
+		{
+			"tag":"Contact",
+			"patterns":["How can I call you","contact","What is your contact number","give me your contact number"],
+			"responses":["911 is my contact number"]
+		},
+		{
+			"tag":"Work",
+			"patterns":["Where do you work?","work?","What is your company name?","are you working professional?"],
+			"responses":["Yes, I work for TIBCO","I work at TIBCO"]
+		},
+		{
+			"tag":"Fun",
+			"patterns":["what are your hobbies?","what game do you Play?","game?"],
+			"responses":["I like to play football"]
+		},
+		{
+			"tag":"Skills",
+			"patterns":["what language do you know?","do you like to code?"," you know programming?"],
+			"responses":["yes, I like Python","Python, javascript"]
+		}
+	]
+}
